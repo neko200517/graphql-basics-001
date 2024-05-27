@@ -1,0 +1,44 @@
+"news information"
+type Query {
+  "The info"
+  info: String!
+  feed: [Link]!
+}
+
+type Mutation {
+  signup(email: String!, password: String!, name: String!): AuthPaylaod
+  login(email: String!, password: String!): AuthPaylaod
+  post(url: String!, description: String!): Link!
+  vote(linkId: ID!): Vote
+}
+
+type Subscription {
+  newLink: Link
+  newVote: Vote
+}
+
+type Vote {
+  id: ID!
+  link: Link!
+  user: User!
+}
+
+type Link {
+  id: ID!
+  description: String!
+  url: String!
+  postedBy: User
+  votes: [Vote!]!
+}
+
+type AuthPaylaod {
+  token: String
+  user: User
+}
+
+type User {
+  id: ID!
+  name: String
+  email: String
+  links: [Link!]!
+}

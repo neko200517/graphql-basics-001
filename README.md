@@ -1,36 +1,12 @@
-# (Odyssey Course) Intro to GraphQL with TypeScript
+## 概要
 
-Welcome to the starter code for **Intro to GraphQL with TypeScript**. You can find the [course lessons and instructions](https://apollographql.com/tutorials/intro-typescript) on Odyssey, [Apollo](https://apollographql.com)'s learning platform.
+GraphQL の習作
 
-## How to use this repo
+- Prisma
+- Query
+- Mutation
+- Subscription
 
-The course will walk you step by step on what to do. This codebase is the starting point of your journey!
+## ドキュメント
 
-Navigate to the root of the project directory, and run the following commands.
-
-```
-npm install && npm run dev
-```
-
-The `final` branch of this repo contains the final stage of the course, with all of the steps and code completed! If you get stuck, you can refer to it and compare your code.
-
-## Getting Help
-
-This repo is _not regularly monitored_.
-
-For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey). You can also [join the Apollo Discord](https://discord.gg/graphos).
-
-
-# Getting Started
-
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official TypeScript documentation]([https://docs.gradle.org](https://www.typescriptlang.org/docs/))
-
-
-
-
-
-
-
+https://github.com/neko200517/obsidian/tree/main/Notes/develop/GraphQL%E3%81%A7%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AAAPI%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%99%E3%82%8B%EF%BC%88TypeScript%20%2B%20V4%EF%BC%89
