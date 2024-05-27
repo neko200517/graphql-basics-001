@@ -2,6 +2,8 @@
 
 GraphQL の習作
 
+- TypeScript
+- Apollo Server v4
 - Prisma
 - Query
 - Mutation
